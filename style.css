@@ -1,0 +1,132 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: 20%;
+   width: fit-content;
+   height: auto;
+   backdrop-filter:blur(2px) ;
+}
+.Login{
+    font-family: "Playfair Display", serif;
+    font-weight:bolder ;
+    font-style: normal;
+    font-size: 30px;
+    margin-left:80px;
+    
+}
+.head{
+    margin-bottom: 5px;
+    font-family: "Oswald", sans-serif;
+}
+form input{
+    padding-bottom: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: bisque;
+    background-color: transparent;
+    width:250px;
+}
+.forget{
+    text-decoration: none;
+    color: rgb(252, 198, 198); 
+    padding-left:140px;
+}
+button{
+    
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    color:skyblue;
+    cursor: pointer;
+}
+.links{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    margin-top: 10px;
+    margin-left:65px ;
+    
+}
+.fa-brands{
+    font-size: 28px;
+    padding-left: 60px;
+    margin-left: 5px;
+    margin-top: -10px;
+    
+}
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background: url(back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: 20%;
+       width: fit-content;
+       height: auto;
+       backdrop-filter:blur(2px) ;
+    }
+    .Login{
+        font-family: "Playfair Display", serif;
+        font-weight:bolder ;
+        font-style: normal;
+        font-size: 30px;
+        margin-left:80px;
+        
+    }
+    .head{
+        margin-bottom: 5px;
+        font-family: "Oswald", sans-serif;
+    }
+    form input{
+        padding-bottom: 10px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: bisque;
+        background-color: transparent;
+        width:250px;
+    }
+    .forget{
+        text-decoration: none;
+        color: rgb(252, 198, 198); 
+        padding-left:140px;
+    }
+    button{
+        
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 15px;
+        width: 250px;
+        height: 40px;
+        border-radius: 20px;
+        color:skyblue;
+        cursor: pointer;
+    }
+    .links{
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+        margin-top: 10px;
+        margin-left:65px ;
+        
+    }
+    .fa-brands{
+        font-size: 28px;
+        padding-left: 60px;
+        margin-left: 5px;
+        margin-top: -10px;
+        
+    }
+}
